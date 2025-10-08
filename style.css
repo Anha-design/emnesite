@@ -1,0 +1,88 @@
+/* reset */
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+
+body {
+  background-color: #f7f3eb;
+}
+
+/* ----------------- */
+
+h2 {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #ca6702;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #f7f3eb;
+}
+
+.blue {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #005f73;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: regular;
+  color: hwb(0 0% 100%);
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+/* -------Hero section---------- */
+
+hero_grid {
+  position: relative; /* gør det muligt at placere tekst ovenpå billedet */
+  display: inline-block;
+}
+
+.cinema {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 10px 0 10px;
+}
+
+.hero_header {
+  position: absolute; /* taler samme med hero_grid. Slet ikke */
+  top: 20px;
+  left: 40px;
+  color: #f7f3eb;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.hero_grid {
+  display: grid;
+  grid-template-columns: fr 10f 1fr;
+  gap: 10px;
+}
+
+/* -------Hero section slut---------- */
+.vote_grid_text {
+  margin-left: 40px;
+  transform: rotate(-6.5deg);
+  width: 1278;
+}
+/* -------Vote section start---------- */
