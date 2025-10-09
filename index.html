@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Things Movie</title>
 
-    <title>All things movie</title>
-    <link rel="icon" type="image/x-icon" href="/image/Rewind_logo.svg" />
+    <link rel="icon" type="image/x-icon" href="image/rewind_logo.svg" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,35 +17,82 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="layout.css" />
   </head>
+
   <body>
-    <head>
-      <header>
-        <!-- /Hero section start-->
-        <section class="hero_grid">
-          <img class="cinema" src="image/cinema croped.webp" alt="cinema" />
-          <div class="hero_header">
-            <h1>ALL THINGS MOVIE</h1>
-            <h2>Rewind to remember</h2>
-          </div>
-        </section>
-        <p>
-          All Things Movies is the perfect place to relive your favorite movie
-          moments and share your love of film with others. Discover what movies
-          move, thrill, or inspire people just like you, and maybe even find a
-          new favorite along the way. Come join a community where every movie
-          fan is welcome and every story matters.
-        </p>
+    <!-- ====== HEADER START ====== -->
+    <header class="site-header">
+      <!-- Navigation -->
+      <div class="logo">
+        <a href="/">
+          <img src="image/rewind_logo.svg" alt="Logo" />
+        </a>
+      </div>
 
-        <!-- /Hero section slut-->
-        <!-- /vote section start-->
-        <section class="vote_grid_text">
-          <h2 class="blue">Vote to see next</h2>
-        </section>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Vote</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="spotlight.html">Spotlight</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About us</a></li>
+        </ul>
 
-        <!-- /vote section slut-->
-      </header>
-    </head>
+        <button class="burger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <!-- Navigation slut -->
+    </header>
+    <!-- ====== HEADER SLUT ====== -->
+
+    <!-- ====== HERO SECTION ====== -->
+    <section class="hero_grid">
+      <img class="cinema" src="image/cinema-croped.webp" alt="cinema" />
+      <div class="hero_header">
+        <h1>ALL THINGS MOVIE</h1>
+        <h2>Rewind to remember</h2>
+      </div>
+    </section>
+
+    <section class="intro_text">
+      <p>
+        All Things Movies is the perfect place to relive your favorite movie
+        moments and share your love of film with others. Discover what movies
+        move, thrill, or inspire people just like you, and maybe even find a new
+        favorite along the way. Come join a community where every movie fan is
+        welcome and every story matters.
+      </p>
+    </section>
+    <!-- ====== HERO SECTION SLUT ====== -->
+
+    <!-- ====== VOTE SECTION ====== -->
+    <section class="vote_grid_text">
+      <h2 class="blue">Vote to see next</h2>
+    </section>
+    <!-- ====== VOTE SECTION SLUT ====== -->
+
+    <!-- ====== MAIN CONTENT ====== -->
     <main>
+      <section class="blade-runner">
+        <button>Blade Runner</button>
+        <img src="image/blade-runner.webp" alt="bladerunner" />
+        <p>
+          Blade Runner (1982): Futuristic noir with flying cars, moody rain, and
+          Harrison Ford chasing androids who might have more soul than humans.
+          Come for the neon, stay for the existential crisis. 
+        </p>
+        <a href="readmore.html">Read more</a>
+        <a
+          href="https://www.youtube.com/watch?v=eogpIG53Cis"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Watch trailer
+        </a>
+      </section>
+
       <section>
         <div>
           <h1></h1>
@@ -53,7 +100,13 @@
           <img src="" alt="" />
         </div>
       </section>
+
+      <div class="line"></div>
     </main>
-    <footer></footer>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>please remember to rewind</footer>
+
+    <script src="menu.js"></script>
   </body>
 </html>
