@@ -28,17 +28,20 @@ button {
   color: #f7f3eb;
   background-color: #000000;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 /* -------Menu---------- */
 .logo img {
   width: 40px;
   height: 40px;
-  margin: 40px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 40px;
 }
 .menu {
   display: flex;
-  justify-content: right;
+  justify-content: end;
   flex-wrap: wrap;
   list-style: none;
   margin-bottom: 20px;
@@ -55,12 +58,17 @@ button {
   font-weight: bold;
   color: #f7f3eb;
   background-color: #000000;
+  margin: 20px;
 }
 
 .menu a:hover {
   color: #ca6702;
 }
 
+.site-header {
+  display: flex; /* Det er den der lave det horizontal layout for nav + burger */
+  align-items: end;
+}
 .burger {
   width: 30px;
   height: 20px;
@@ -154,6 +162,20 @@ p {
   margin-left: 70px;
 }
 
+a {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: regular;
+  color: hwb(0 0% 100%);
+  margin-top: 20px;
+  margin-left: 0px;
+  text-decoration: none;
+  font-style: italic;
+}
+a:hover {
+  font-weight: bold;
+}
+
 /* -------Hero section---------- */
 
 .hero_grid {
@@ -184,12 +206,26 @@ p {
 }
 
 /* -------Hero section slut---------- */
+
+/* -------Vote section start---------- */
 .vote_grid_text {
   margin-left: 40px;
   transform: rotate(-6.5deg);
   width: 1278;
+  margin-bottom: 70px;
 }
-/* -------Vote section start---------- */
+
+.blade-runner-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: regular;
+  color: hwb(0 0% 100%);
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+/* -------Vote section slut---------- */
+
 /* Footerline */
 
 .line {
