@@ -8,8 +8,14 @@
 
 img {
   max-width: 100%;
-  height: 100%;
-  display: block;
+  object-fit: cover;
+}
+.logo {
+  margin-left: 40px;
+}
+.movie-img {
+  width: 100%;
+  margin-top: 20px;
 }
 
 body {
@@ -69,8 +75,13 @@ button {
   display: flex; /* Det er den der lave det horizontal layout for nav + burger */
   align-items: end;
 }
+
+nav {
+  margin-left: auto;
+}
+
 .burger {
-  width: 30px;
+  width: 45px;
   height: 20px;
   cursor: pointer;
 }
@@ -90,6 +101,7 @@ button {
   .menu {
     display: none;
   }
+
   .burger {
     display: block;
     background-color: transparent;
@@ -153,13 +165,38 @@ h2 {
   color: #005f73;
 }
 
+.red {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #9b2227;
+}
+
+.beige {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #f7f3eb;
+}
+
 p {
   font-family: Helvetica, sans-serif;
   font-size: 12px;
   font-weight: regular;
   color: hwb(0 0% 100%);
   margin-top: 20px;
+  margin-left: 0px;
+}
+.intro_text {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: regular;
+  color: hwb(0 0% 100%);
+  margin-top: 20px;
   margin-left: 70px;
+  margin-right: 70px;
 }
 
 a {
@@ -205,13 +242,11 @@ a:hover {
   gap: 10px;
 }
 
-/* -------Hero section slut---------- */
-
 /* -------Vote section start---------- */
 .vote_grid_text {
   margin-left: 40px;
   transform: rotate(-6.5deg);
-  width: 1278;
+  /* width: 1278; */
   margin-bottom: 70px;
 }
 
@@ -224,7 +259,89 @@ a:hover {
   margin-left: 0px;
 }
 
-/* -------Vote section slut---------- */
+/* -------reviews ---------- */
+
+.reviews {
+  margin-top: 50px;
+  display: grid;
+  background-color: #ca6702;
+  padding-bottom: 50px;
+  z-index: 1000;
+  margin-right: ;
+}
+
+.woman2 {
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+  margin-left: 40px;
+}
+
+.never {
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  position: sticky;
+}
+.review-button {
+  margin: 40px;
+}
+
+.review-button:hover {
+  color: #ca6702;
+}
+
+.never {
+  max-width: 150px;
+  height: 200px;
+  display: block;
+  margin-left: 0px;
+}
+
+.reviews div {
+  grid-column: 3 / 5;
+  grid-row: 2 / 3;
+}
+
+.woman2 {
+  max-width: 250px;
+  height: 300px;
+  display: block;
+  margin-left: 40px;
+  filter: grayscale(100%);
+}
+.review-text-citat {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: hwb(0 0% 100%);
+  margin-top: 0px;
+}
+
+.review-text-citat2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: hwb(0 0% 100%);
+  margin-bottom: 0px;
+}
+
+/* --spot light-- */
+
+.spotlight-button:hover {
+  color: #ca6702;
+}
+.spotlight-button {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.h2spotlight {
+  margin: 40px;
+  transform: rotate(3deg);
+}
+
+.terrifin-clown {
+  margin: 40px;
+}
 
 /* Footerline */
 
@@ -232,8 +349,8 @@ a:hover {
   width: 1500px;
   height: 3px;
   background: #000000;
-  margin-left: 50px;
-  margin-right: 50px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
 }
 /* Footer */
 footer {

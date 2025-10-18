@@ -1,10 +1,8 @@
 .blade-runner_grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
   margin-left: 40px;
-}
-
-.E.T {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
+  margin-right: 40px;
+  margin-right: 10px;
 }
