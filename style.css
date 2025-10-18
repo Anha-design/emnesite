@@ -142,7 +142,16 @@ nav {
   }
 }
 /* ----menu slut------- */
-h1 {
+h4 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 20;
+  font-style: thin;
+  font-size: 15px;
+  color: #000000;
+  margin-left: 90px;
+}
+
+Forside/spot light h1 {
   font-family: Helvetica, sans-serif;
   font-size: 50px;
   font-weight: bold;
@@ -171,6 +180,8 @@ h2 {
   font-style: bold;
   font-size: 40px;
   color: #9b2227;
+  margin-left: 40px;
+  transform: rotate(-6.5deg);
 }
 
 .beige {
@@ -267,7 +278,6 @@ a:hover {
   background-color: #ca6702;
   padding-bottom: 50px;
   z-index: 1000;
-  margin-right: ;
 }
 
 .woman2 {
@@ -340,9 +350,57 @@ a:hover {
 }
 
 .terrifin-clown {
-  margin: 40px;
+  margin-left: 40px;
 }
 
+/* --Quiz-- */
+.quiz {
+  align-items: left;
+}
+
+.quiz {
+  text-align: right; /* Højrejustér alt tekst og inline-elementer */
+  margin-right: 40px;
+}
+
+.quiz img,
+.quiz button {
+  display: block; /* Sørg for at billeder og knapper står på egen linje */
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.buttonquiz:hover {
+  color: #ca6702;
+}
+
+/* PAGE: spotlight*/
+
+.hero_header_black {
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 90px;
+}
+
+.hoved_class {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoved_class img {
+  max-width: 470px;
+  max-height: 300px;
+}
+
+.hoved_class p {
+  max-width: 471px;
+}
+
+.
 /* Footerline */
 
 .line {
