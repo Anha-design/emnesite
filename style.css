@@ -10,6 +10,12 @@ img {
   max-width: 100%;
   object-fit: cover;
 }
+
+img {
+  aspect-ratio: 3 / 2;
+  width: 100%;
+  height: auto;
+}
 .logo {
   margin-left: 40px;
 }
