@@ -11,11 +11,6 @@ img {
   object-fit: cover;
 }
 
-img {
-  aspect-ratio: 3 / 2;
-  width: 100%;
-  height: auto;
-}
 .logo {
   margin-left: 40px;
 }
@@ -154,7 +149,7 @@ h4 {
   font-style: thin;
   font-size: 15px;
   color: #000000;
-  margin-left: 90px;
+  margin: 0px 0px 0px 90px;
 }
 
 Forside/spot light h1 {
@@ -170,6 +165,19 @@ h2 {
   font-style: bold;
   font-size: 40px;
   color: #ca6702;
+  margin: 0pax;
+}
+
+.h2-Guides-of-the-Guild {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #9b2227;
+  margin-left: 70px;
+  display: grid;
+  margin-top: 40px;
+  align-items: left;
 }
 
 .blue {
@@ -186,7 +194,8 @@ h2 {
   font-style: bold;
   font-size: 40px;
   color: #9b2227;
-  margin-left: 40px;
+  margin-left: -40px;
+  margin-bottom: 40px;
   transform: rotate(-6.5deg);
 }
 
@@ -212,8 +221,9 @@ p {
   font-weight: regular;
   color: hwb(0 0% 100%);
   margin-top: 20px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 90px;
+  max-width: 800px;
+  margin-bottom: 15px;
 }
 
 a {
@@ -279,10 +289,8 @@ a:hover {
 /* -------reviews ---------- */
 
 .reviews {
-  margin-top: 50px;
+  margin-top: 0px;
   display: grid;
-  background-color: #ca6702;
-  padding-bottom: 50px;
   z-index: 1000;
 }
 
@@ -299,6 +307,7 @@ a:hover {
 }
 .review-button {
   margin: 40px;
+  align-content: center;
 }
 
 .review-button:hover {
@@ -329,15 +338,14 @@ a:hover {
   font-size: 24px;
   font-weight: bold;
   color: hwb(0 0% 100%);
-  margin-top: 0px;
+  margin-left: 80px;
 }
-
-.review-text-citat2 {
+.review-text2 {
   font-family: Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 15px;
+  font-weight: Oblique;
   color: hwb(0 0% 100%);
-  margin-bottom: 0px;
+  margin-left: 80px;
 }
 
 /* --spot light-- */
@@ -351,12 +359,16 @@ a:hover {
 }
 
 .h2spotlight {
-  margin: 40px;
+  margin-left: 900px;
   transform: rotate(3deg);
+  transform: rotate(6.5deg);
+  margin-bottom: 0pax;
+  color: #005f73;
 }
 
 .terrifin-clown {
   margin-left: 40px;
+  margin-bottom: 40px;
 }
 
 /* --Quiz-- */
@@ -369,15 +381,22 @@ a:hover {
   margin-right: 40px;
 }
 
-.quiz img,
 .quiz button {
   display: block; /* Sørg for at billeder og knapper står på egen linje */
   margin-left: auto;
   margin-right: 0;
+  margin-top: 20px;
 }
 
 .buttonquiz:hover {
   color: #ca6702;
+}
+
+.whats-in-the-box {
+  margin-top: 20px;
+  margin-right: 700px;
+  margin-bottom: 40pxpx;
+  transform: rotate(-6.5deg);
 }
 
 /* PAGE: spotlight*/
@@ -386,8 +405,9 @@ a:hover {
   color: #000000;
   font-family: Helvetica, sans-serif;
   font-size: 50px;
-  font-weight: bold;
-  margin-left: 90px;
+  font-weight: 400px;
+
+  margin: 0px 0px 0px 90px;
 }
 
 .hoved_class {
@@ -395,6 +415,7 @@ a:hover {
   gap: 50px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .hoved_class img {
@@ -406,22 +427,121 @@ a:hover {
   max-width: 471px;
 }
 
-.
+/* PAGE: quiz  */
+
+.Whats-in-the-box-page-h2 {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #9b2227;
+  margin-left: -40px;
+  margin-bottom: 40px;
+  transform: rotate(-6.5deg);
+}
+
+.cooking-something-new-image {
+  filter: grayscale(100%);
+}
+
+.farvelinje_quiz {
+  margin-left: 90px;
+}
+
+/* ul {
+  font-family: Helvetica, sans-serif;
+  font-weight: 20;
+  font-style: normal;
+  font-size: 12px;
+  color: #000000;
+  margin: 0px 0px 0px 90px;
+}
+
+li {
+  font-family: Helvetica, sans-serif;
+  font-weight: 20;
+  font-style: normal;
+  font-size: 12px;
+  color: #000000;
+  margin: 0px 0px 0px 90px;
+} */
+
+/* PAGE: About us */
+
+.Every-story-has-a-beginning-h2 {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #9b2227;
+  margin-left: -40px;
+  margin-bottom: 40px;
+  transform: rotate(-6.5deg);
+}
+
+/* Shop */
+
+.h2-An-offer-you-cant-refuse {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 40px;
+  color: #9b2227;
+  margin-left: -40px;
+  margin-bottom: 40px;
+  transform: rotate(-6.5deg);
+}
+
+.webshop-image {
+  margin-left: 70px;
+  width: 1000px;
+  height: auto;
+  object-fit: cover; /* keeps image nicely cropped instead of squished */
+}
+
+/* PAGE: Comming soon */
+
+.Coming-soon {
+  font-family: "Reenie Beanie";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 90px;
+  color: #000000;
+  margin-left: 500px;
+  margin-bottom: 40px;
+  transform: rotate();
+}
+
 /* Footerline */
 
 .line {
   width: 1500px;
   height: 3px;
   background: #000000;
+  align-self: center;
   /* margin-left: 50px;
   margin-right: 50px; */
 }
+
+.line-top {
+  margin-top: 40px;
+  width: 1500px;
+  height: 3px;
+  background: #000000;
+  align-self: center;
+}
 /* Footer */
-footer {
+
+.footer a {
   font-family: "Reenie Beanie";
   font-weight: 400;
   font-style: bold;
   font-size: 20px;
   color: #ca6702;
+}
+
+.footer {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }

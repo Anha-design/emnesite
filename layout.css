@@ -6,3 +6,148 @@
   margin-right: 40px;
   margin-right: 10px;
 }
+
+.h2-Guides-of-the-Guild {
+  grid-column: 3/5;
+  grid-row: 1/4;
+}
+
+/* Page:about us  */
+
+
+/* ========== MEDIA QUERIES ========== */
+
+/* ---- MOBILE (maks 600px) ---- */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  header,
+  nav ul.menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    text-align: center;
+    margin: 0;
+  }
+
+  .menu a {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .hero_header h1 {
+    font-size: 30px;
+  }
+
+  .hero_header h2 {
+    font-size: 18px;
+  }
+
+  .blade-runner_grid {
+    grid-template-columns: 1fr; /* én kolonne */
+    gap: 30px;
+    margin: 20px;
+  }
+
+  .hoved_class {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hoved_class img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .intro_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+  }
+
+  .reviews,
+  .quiz,
+  .spotlight {
+    text-align: center;
+  }
+
+  .quiz h2,
+  .spotlight h2 {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+
+  .line,
+  .line-top {
+    width: 90%;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+
+  .footer a {
+    font-size: 16px;
+  }
+}
+
+/* ---- TABLET (601px – 1024px) ---- */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .blade-runner_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 30px;
+  }
+
+  .hoved_class {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .hoved_class img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .hero_header h1 {
+    font-size: 40px;
+  }
+
+  .hero_header h2 {
+    font-size: 22px;
+  }
+
+  .intro_text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .footer a {
+    font-size: 18px;
+  }
+}
+
+/* ---- LARGE SCREENS (over 1024px) ---- */
+@media screen and (min-width: 1025px) {
+  .blade-runner_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hoved_class {
+    gap: 60px;
+  }
+
+  .intro_text {
+    max-width: 800px;
+  }
+}
