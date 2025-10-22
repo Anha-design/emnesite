@@ -270,6 +270,7 @@ a:hover {
 }
 
 /* -------Vote section start---------- */
+
 .vote_grid_text {
   margin-left: 40px;
   transform: rotate(-6.5deg);
@@ -537,7 +538,7 @@ li {
   font-weight: 400;
   font-style: bold;
   font-size: 20px;
-  color: #ca6702;
+  color: #9b2227;
 }
 
 .footer {
