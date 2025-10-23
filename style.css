@@ -38,6 +38,22 @@ button {
   align-items: center;
 }
 
+.start_quiz {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #f7f3eb;
+  background-color: #000000;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
 /* -------Menu---------- */
 .logo img {
   width: 40px;
@@ -392,6 +408,10 @@ a:hover {
 }
 
 .buttonquiz:hover {
+  color: #ca6702;
+}
+
+.start_quiz:hover {
   color: #ca6702;
 }
 
