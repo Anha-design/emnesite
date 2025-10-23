@@ -5,6 +5,7 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-right: 10px;
+  margin-top: 0px;
 }
 
 .h2-Guides-of-the-Guild {
@@ -14,7 +15,17 @@
 
 /* Page:about us  */
 
+.about-us-img {
+  margin-left: 90px;
+}
 
+.intro_text_box {
+  max-width: 500px;
+}
+
+.line.about {
+  margin-top: 90px;
+}
 /* ========== MEDIA QUERIES ========== */
 
 /* ---- MOBILE (maks 600px) ---- */
